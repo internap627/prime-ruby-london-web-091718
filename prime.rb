@@ -2,7 +2,7 @@
 
 def prime?(n)
 if n < 0
-  false 
+  return false 
 end
 
   for d in 2..(n - 1)
